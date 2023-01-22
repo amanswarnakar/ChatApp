@@ -1,13 +1,12 @@
-const socket = io("https://chat-with-friend5.herokuapp.com");
+const socket = io("https://chatapp-backend.up.railway.app");
 
 const form = document.getElementById("send-container");
 const messageInput = document.getElementById("messageInp");
 const messageContainer = document.querySelector(".container");
 
-let outgoing = new Audio('public/sounds/outgoing.mp3');
-let incoming = new Audio('public/sounds/incoming.mp3');
-let userJoinLeft = new Audio('public/sounds/join-left.mp3');
-
+let outgoing = new Audio("public/sounds/outgoing.mp3");
+let incoming = new Audio("public/sounds/incoming.mp3");
+let userJoinLeft = new Audio("public/sounds/join-left.mp3");
 
 const append = (message, position) => {
   const messageElement = document.createElement("div");

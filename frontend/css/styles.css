@@ -35,7 +35,7 @@ nav h1 {
 }
 
 .container {
-  background-image: url('../public/images/container-bg.png');
+  background-image: url("../public/images/container-bg.png");
   background-color: var(--container-bg-color);
   background-size: cover;
   background-blend-mode: overlay;
@@ -104,7 +104,8 @@ nav h1 {
   margin-right: 5px;
   padding: 5px 15px;
 }
-.send #messageInp:active, .send #messageInp:valid {
+.send #messageInp:active,
+.send #messageInp:valid {
   outline: none;
 }
 
