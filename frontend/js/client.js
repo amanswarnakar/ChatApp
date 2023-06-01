@@ -1,4 +1,4 @@
-const socket = io("https://chatapp-backend.up.railway.app");
+const socket = io("https://chatapp-z4wc.onrender.com");
 
 const form = document.getElementById("send-container");
 const messageInput = document.getElementById("messageInp");
