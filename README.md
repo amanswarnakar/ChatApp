@@ -1,3 +1,3 @@
 # ChatApp
 
-Hosted Project Link: http://amanswarnakar.github.io/ChatApp/index.html
+Hosted Project Link: https://amanswarnakar.github.io/chatapp-frontend/
